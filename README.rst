@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/necrolyte2/filehandle.svg?branch=master)](https://travis-ci.org/necrolyte2/filehandle)
-[![Coverage Status](https://coveralls.io/repos/necrolyte2/filehandle/badge.png?branch=master)](https://coveralls.io/r/necrolyte2/filehandle?branch=master)
-[![Docs](https://readthedocs.org/projects/filehandle/badge/?version=latest)](http://filehandle.readthedocs.org/en/latest/)
+.. image:: https://travis-ci.org/necrolyte2/filehandle.svg
+     :target: https://travis-ci.org/necrolyte2/filehandle
+
+.. image:: https://coveralls.io/repos/necrolyte2/filehandle/badge.svg
+     :target: https://coveralls.io/r/necrolyte2/filehandle
 
 filehandle
 ==========
