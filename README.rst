@@ -1,8 +1,8 @@
 .. image:: https://travis-ci.org/necrolyte2/filehandle.svg
      :target: https://travis-ci.org/necrolyte2/filehandle
 
-.. image:: https://coveralls.io/repos/necrolyte2/filehandle/badge.svg
-     :target: https://coveralls.io/r/necrolyte2/filehandle
+.. image:: https://coveralls.io/repos/necrolyte2/filehandle/badge.svg?branch=master
+  :target: https://coveralls.io/r/necrolyte2/filehandle?branch=master
 
 .. image:: https://badge.fury.io/py/filehandle.svg
        :target: https://badge.fury.io/py/filehandle
