@@ -14,8 +14,11 @@ Typical way to open gzip or regular file
 .. code-block:: python
 
     >>> import gzip
+    >>> import os.path
     >>> files = ['/path/to/foo.bar.gz', '/path/to/foo.bar']
     >>> for f in files:
+    ...   root, ext = os.path.splitext(f.replace('.gz',''))
+    ...   ext = ext[1:]
     ...   if f.endswith('.gz'):
     ...     handle = gzip.open(f)
     ...   else:
@@ -29,4 +32,4 @@ Using filehandle
     >>> import filehandle
     >>> files = ['/path/to/foo.bar.gz', '/path/to/foo.bar']
     >>> for f in files:
-    ...   handle = filehandle.open(f)
+    ...   handle, extension = filehandle.open(f)
