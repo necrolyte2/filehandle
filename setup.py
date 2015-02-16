@@ -6,14 +6,6 @@ setup(
     name = 'filehandle',
     version = __version__,
     py_modules = ['filehandle'],
-    setup_requires = [
-        'nose',
-        'python-coveralls'
-    ],
-    tests_require = [
-    ],
-    entry_points = {
-    },
     install_requires = [],
     author = 'Tyghe Vallard',
     author_email = 'vallardt@gmail.com',

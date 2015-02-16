@@ -6,7 +6,7 @@ try:
 except ImportError:
     import builtins
 
-__version__ = '0.0.9'
+__version__ = '1.0.0'
 
 def open(filepath, mode='rb', buffcompress=None):
     '''
